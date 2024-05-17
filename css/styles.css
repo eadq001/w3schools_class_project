@@ -58,17 +58,81 @@ img  {
 .text-links a {
     padding: 0 15px;
 }
-.container {
+
+
+.search_bar {
+    height: 35px;
     display: flex;
+    gap: 5px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.search_bar:focus {
+    outline: 2px solid var(--light-green);
 }
 
 .search {
-    height: 40px;
+    max-width: 80%;
     border-radius: 100vw;
-    border: 1px solid gray;
-    padding: 0 5px 0 12px;
+    border: none;
+    padding: 0 0 0 15px;
+    margin-right: 3px;
+    outline: none;
 }
 
 #image-link:hover {
     background-color: transparent;
+}
+
+.fa-caret-down {
+    margin-left: 2px;
+}
+
+.fa-magnifying-glass {
+    font-weight: 1.5rem;
+    position: absolute;
+    right: 1px;
+    padding:5px;    
+}
+
+.search-icon:hover {
+    color: black !important;
+}
+
+.signup_login{
+    display: flex;
+    border-radius: 100vw;
+    overflow: hidden;
+}
+
+.signup__container {
+    padding: 10px 20px;
+    width: 100px;
+    background-color: var(--light-green);
+    color: white;
+    border-radius: 100vw;
+    position: relative;
+    z-index: 1;
+}
+
+.signup__container:hover {
+    background-color: var(--dark-green);
+}
+
+.login__container:hover {
+    color: white;
+    background-color: var(--dark-green);
+}
+
+
+.login__container {
+    transform: translateX(-25px);
+    width: 100%;
+    padding: 10px 20px 10px 37px;
+    background-color: #21e69d15;
+    border-radius: 0 100vw 100vw 0;
 }
