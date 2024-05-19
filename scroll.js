@@ -1,8 +1,10 @@
-const tabsList = document.querySelectorAll('.links');
+const leftArrow = document.querySelector(".left-arrow")
+const rightArrow = document.querySelector(".right-arrow");
 
-const rightArrow = Document.querySelector('.right-arrow');
+leftArrow.addEventListener("click", () => {
+    document.querySelector(".links").scrollLeft -= 100;
+})
 
-
-rightArrow.addEventListener("click", () => {
-    tabsList.scrollLeft += 1400;
+rightArrow.addEventListener("click",() => {
+    document.querySelector(".links").scrollLeft += 100;
 })

@@ -12,6 +12,7 @@ html {
 
 body {
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .flow--spacer > * + * {
@@ -165,6 +166,7 @@ img {
 
 .links{
   padding: 0 35px;
+  scroll-behavior: smooth;
 }
 
 .scroll::before {
