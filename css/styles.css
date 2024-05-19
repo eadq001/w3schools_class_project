@@ -144,14 +144,38 @@ img {
 
 
 /* bottom nav styles */
-.bottom_nav  {
+.bottom_nav {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.bottom_nav .links  {
     background-color: var(--dark-grey);
     display: flex;
     align-items: center;
     height: 40px;
-    overflow: hidden;
     letter-spacing: 0.5px;
+    overflow-x: scroll;
+}
 
+.bottom_nav .links::-webkit-scrollbar {
+  display: none;
+}
+
+.links{
+  padding: 0 35px;
+}
+
+.scroll::before {
+  display: flex;
+  align-items: center;
+  height: 40px;
+
+}
+
+.scroll:hover {
+  background-color: var(--black);
 }
 
 .bottom_nav a{
@@ -166,6 +190,25 @@ img {
     background-color: var(--black);
 }
 
+.left-arrow, .right-arrow {
+  position: absolute;
+  width: 35px;
+  background-color: var(--dark-grey);
+  cursor: pointer;
+
+
+}
+
+.left-arrow {
+  transform: translateX(-35px);
+}
+
+.right-arrow {
+  transform: translateX(5px);
+  right: 0;
+  width: 40px;
+  justify-content: flex-end;
+}
 
 /* main styles */
 main {

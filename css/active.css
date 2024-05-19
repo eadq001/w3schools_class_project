@@ -1,0 +1,7 @@
+.bottom_nav .active {
+    background-color: #08ab6f;
+}
+
+.active:hover {
+    background-color:  #08ab6f !important;
+}
