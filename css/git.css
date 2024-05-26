@@ -1,0 +1,181 @@
+
+  h1{
+    font-size: 43px;
+    font-weight: 400;
+    font-family: Segoe UI;
+    padding-left: 320px;
+    padding-top: 70px;
+  }
+
+  .button1{
+    margin-left: 320px;
+    margin-top: -15px;
+    background-color: #04AA6D;
+    color: white;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 553;
+    font-family: Source Sans Pro', sans-serif;
+   }
+
+   .button1:hover{
+    background-color: #1c9c61;
+  }
+
+  .button2{
+    margin-left: 780px;
+    margin-top: -15px;
+    background-color: #04AA6D;
+    color: white;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 553;
+    font-family: Source Sans Pro', sans-serif;
+  }
+
+  .button2:hover{
+    background-color: #1c9c61;
+  }
+
+  .nextobutton1{
+    background-color:#f3ecea;
+    width: 2000px;
+    height: 180px;
+    margin-top: 20px;
+  }
+  .plusign{
+    padding-left: 1170px;
+    width: 300px;
+    height: 300px;
+    margin-top: -95px;
+  }
+
+  .plusign img{
+    width: 150px;
+    height: 80px;
+  }
+
+  .para1{
+    padding-left: 320px;
+    font-size: 15px;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .learnxm h1{
+    padding-left: 320px;
+    font-size: 15px;
+    padding-top: 10px;
+    font-family: Segoe UI;
+    font-size: 33px;
+    font-weight: 400;
+  }
+
+  .learnxm p{
+    padding-left: 320px;
+    font-size: 15px;
+    padding-top: 10px;
+    font-family: Segoe UI;
+  }
+
+  .learnxm img{
+    padding-left: 295px;
+    width: 1330px;
+    height: 150px;
+    border-radius: 8px;
+  }
+
+.gitcommand img{
+  width: 1330px;
+  margin-top: 10px;
+  margin-left: -2px;
+}
+
+.changeplatfrm img{
+  height: 260px;
+  width: 530px;
+  margin-top: -900px;
+  margin-left: 800px;
+}
+
+.gitexerc img{
+  width: 1330px;
+  height: 500px;
+}
+
+.buttonG{
+  margin-left: 320px;
+  margin-top: 15px;
+  background-color: #2196F3;
+  color: white;
+  width: 140px;
+  height: 42px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 499;
+  font-family: Source Sans Pro', sans-serif;
+ }
+
+ .buttonG:hover{
+  background-color: #1e87dd;
+ }
+
+ .gj img{
+  width: 1330px;
+  height: 400px;
+}
+
+.button_h{
+  margin-left: 320px;
+  margin-top: 60px;
+  background-color: #04AA6D;
+  color: white;
+  width: 100px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 553;
+  font-family: Source Sans Pro', sans-serif;
+ }
+
+ .button_h:hover{
+  background-color: #1c9c61;
+}
+
+.button_n{
+  margin-left: 780px;
+  margin-top: 60px;
+  background-color: #04AA6D;
+  color: white;
+  width: 100px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 553;
+  font-family: Source Sans Pro', sans-serif;
+}
+
+.button_n:hover{
+  background-color: #1c9c61;
+}
+
+.btpic img{
+  margin-top: 20px;
+  margin-left: 24px;
+  width: 1280px;
+  height: 150px;
+}
