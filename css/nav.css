@@ -149,6 +149,14 @@ nav {
   border-radius: 0 100vw 100vw 0;
 }
 
+nav {
+  position: sticky;
+  z-index: 99999;
+  top: 0;
+  white-space: nowrap;
+}
+
+
 /* bottom nav styles */
 .bottom_nav {
   position: relative;

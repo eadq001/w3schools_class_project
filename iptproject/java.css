@@ -1,0 +1,645 @@
+:root {
+  --dark-green: #0d8056;
+  --light-green: #08ab6f;
+
+  --dark-grey: #282a35;
+  --black: rgb(0, 0, 0);
+}
+
+html {
+  font-family: "Source Sans Pro Topnav", sans-serif;
+}
+
+body {
+    margin: 0;
+    
+}
+
+.flow--spacer > * + * {
+  margin-left: 1rem;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+  letter-spacing: 0.5px;
+}
+
+img {
+  width: 40px;
+}
+
+
+/* top nav styles */
+.top-nav {
+  position: fixed;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo-links,
+.text-links {
+  display: flex;
+  align-items: center;
+}
+
+.logo-links a {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.logo-links a:hover {
+  color: white;
+  background-color: var(--light-green);
+}
+
+.text-links a {
+  padding: 0 15px;
+}
+
+.search_bar {
+  height: 35px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.search_bar:focus {
+  outline: 2px solid var(--light-green);
+}
+
+.search {
+  max-width: 80%;
+  border-radius: 100vw;
+  border: none;
+  padding: 0 0 0 15px;
+  margin-right: 3px;
+  outline: none;
+}
+
+#image-link:hover {
+  background-color:transparent;
+  
+}
+
+.fa-caret-down {
+  margin-left: 2px;
+}
+
+.fa-magnifying-glass {
+  font-weight: 1.5rem;
+  position: absolute;
+  right: 1px;
+  padding: 5px;
+}
+
+.search-icon:hover {
+  color: black !important;
+}
+
+.signup_login {
+  display: flex;
+  border-radius: 100vw;
+  overflow: hidden;
+}
+
+.signup__container {
+  padding: 10px 20px;
+  width: 100px;
+  background-color: var(--light-green);
+  color: white;
+  border-radius: 100vw;
+  position: relative;
+  z-index: 1;
+  margin-left: 500px;
+
+}
+
+.signup__container:hover {
+  background-color: var(--dark-green);
+}
+
+.login__container:hover {
+  color: white;
+  background-color: var(--dark-green);
+}
+
+.login__container {
+  transform: translateX(-25px);
+  width: 100%;
+  padding: 10px 20px 10px 37px;
+  background-color: #21e69d15;
+  border-radius: 0 100vw 100vw 0;
+}
+
+
+/* bottom nav styles */
+.bottom_nav {
+  position: fixed;
+  overflow: hidden;
+  margin-top: 50px;
+  z-index: 1;
+
+}
+
+.bottom_nav .links  {
+    background-color: var(--dark-grey);
+    display: flex;
+    align-items: center;
+    height: 40px;
+    letter-spacing: 0.5px;
+    overflow-x: scroll;
+}
+
+.bottom_nav .links::-webkit-scrollbar {
+  display: none;
+}
+
+.links{
+  padding: 0 35px;
+}
+
+.scroll::before {
+  display: flex;
+  align-items: center;
+  height: 40px;
+
+}
+
+.scroll:hover {
+  background-color: var(--black);
+}
+
+.bottom_nav a{
+    height: 100%;
+    padding: 0 11px;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+
+.bottom_nav a:hover {
+    background-color: var(--black);
+}
+
+.left-arrow, .right-arrow {
+  position: absolute;
+  width: 35px;
+  background-color: var(--dark-grey);
+  cursor: pointer;
+
+
+}
+
+.left-arrow {
+  transform: translateX(-35px);
+}
+
+.right-arrow {
+  transform: translateX(5px);
+  right: 0;
+  width: 40px;
+  justify-content: flex-end;
+}
+
+/* main styles */
+main {
+    display: grid;
+    grid-template-columns: 15% auto;
+    letter-spacing: 0.5px;
+    height: 100dvh;
+
+}
+
+.sidebar {
+    background-color: #E7E9EB;
+    width: 280px;
+    height: 640px;
+    position: fixed;
+    margin-top: 90px;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+} 
+
+.sidebar-title {
+    padding-left: 20px;
+}
+
+main .sidebar-links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sidebar-links a {
+    padding: 17px 40px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-links a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #45464b9a;
+}
+
+h2{
+  font-weight: 90;
+}
+
+.scrollbox{
+  overflow: auto;
+}
+
+
+.body1 p{
+  font-size: "Segoe UI", Arial, sans-serif;
+}
+p{
+  position: absolute;
+  margin-left: 320px;
+  margin-top: 200px;
+  font-size: 40px;
+}
+
+.button1{
+  position: absolute;
+  background-color:#059862;
+  margin-left: 320px;
+  margin-top: 260px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 100px;
+  height: 45px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #157954;
+}
+
+.button2{
+  position: absolute;
+  background-color:  #059862;
+  margin-left: 1100px;
+  margin-top: 260px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 100px;
+  height: 45px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  cursor: pointer;
+}
+
+.button2:hover {
+  background-color: #157954;
+}
+
+.body2 {
+    background-color:#D9EEE1;
+    height: 250px;
+    width:950px ;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 350px;
+
+  }
+
+  .body2 p{
+    margin-left: 40px;
+    margin-top: 45px;
+    font-size: 30px;
+    font-family:"Segoe UI", Arial, sans-serif ;
+}
+
+#p1 {
+  margin-top: 90px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+.button3{
+  position: absolute;
+  background-color:#059862;
+  margin-left: 40px;
+  margin-top: 165px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 250px;
+  height: 45px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  cursor: pointer;
+}
+
+.button3:hover {
+  background-color: #157954;
+}
+
+.body3 p{
+  margin-left: 315px;
+  margin-top: 650px;
+  font-size: 30px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+}
+
+#p2{
+  margin-top: 715px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.body4 {
+  height: 300px;
+  width: 920px;
+  background-color: #E7E9EB;
+  margin-left: 295px;
+  margin-top: 765px;
+  border-radius: 5px;
+}
+
+.body4 p{
+  margin-left: 20px;
+  margin-top: 18px;
+  font-size: 30px;
+  font-family:"Segoe UI", Arial, sans-serif 
+}
+
+.button4{
+  position: absolute;
+  background-color:#282A35;
+  margin-left: 660px;
+  margin-top: 20px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 240px;
+  height: 40px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  cursor: pointer;
+}
+
+.button4:hover{
+  background-color: #1f2128;
+}
+
+.body4 img{
+  height: 140px;
+  width: 880px;
+  margin-top: 75px;
+  margin-left: 20px;
+}
+
+.button5{
+  position: absolute;
+  background-color:#059862;
+  margin-left: -880px;
+  margin-top: 230px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 150px;
+  height: 35px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  cursor: pointer;
+}
+
+.button5:hover {
+  background-color: #157954;
+}
+
+#p3{
+  margin-top: 100px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.body5{
+  height: 150px;
+  width: 950px;
+  background-color: #ffffcc;
+  margin-left: 282px;
+  margin-top: 65px;
+  border-radius: 5px;
+}
+
+#p4{
+  margin-left: 30px;
+  margin-top: 30px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.body6 p{
+  margin-left: 315px;
+  margin-top: 50px;
+  font-size: 30px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+}
+
+.body6 img{
+  height: 600px;
+  width: 930px;
+  margin-top: 120px;
+  margin-left: 290px;
+}
+
+.body7 p{
+  margin-left: 315px;
+  margin-top: 50px;
+  font-size: 30px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+}
+
+#p5{
+  margin-left: 315px;
+  margin-top: 110px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.button6{
+  position: absolute;
+  margin-left: 315px;
+  margin-top: 150px;
+  background-color:#2196F3;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: 18px;
+  width: 130px;
+  height: 40px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  cursor: pointer;
+}
+
+.button6:hover{
+  background-color:#208ee8 ;
+}
+
+.body8 p{
+  margin-left: 315px;
+  margin-top: 230px;
+  font-size: 30px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+}
+
+#p6{
+  margin-left: 315px;
+  margin-top: 290px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button7{
+  position: absolute;
+  margin-left: 315px;
+  margin-top: 330px;
+  background-color:#E7E9EB ;
+  border: none;
+  color: black;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 200px;
+  height: 40px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  cursor: pointer;
+}
+
+.button7:hover{
+  background-color:black ;
+  color: white;
+}
+
+.body9 p{
+  margin-left: 315px;
+  margin-top: 410px;
+  font-size: 30px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+}
+
+#p7{
+  margin-left: 315px;
+  margin-top: 470px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.body9 img{
+  height: 350px;
+  width: 750px;
+  margin-left: 320px;
+  margin-top: 600px;
+}
+
+#p8{
+  margin-left: 315px;
+  margin-top: 30px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#p9{
+  margin-left: 315px;
+  margin-top: 90px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.body11 p{
+    margin-left: 315px;
+    margin-top: 100px;
+    font-family:"Segoe UI", Arial, sans-serif ;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+#p10{
+  margin-left: 315px;
+  margin-top: 160px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#p10 a{
+  text-decoration: underline;
+}
+
+#p10 a:hover{
+  color: #059862;
+}
+
+.body11 img{
+  height: 550px;
+  width: 950px;
+  margin-left: 300px;
+  margin-top: 240px;
+}
+
+.body12 button{
+  margin-top: 70px;
+}
+
+.body12 img{
+  height: 150px;
+  width: 900px;
+  margin-top: 130px;
+  margin-left: 310px;
+}
+
+.body13{
+  margin-top: 110px;
+}
+
+#f1{
+  height: 400px;
+  width: 1200px;
+  margin-left: 275px;
+}
+
+#f2{
+  height: 400px;
+  width: 1210px;
+  margin-left: 275px;
+  margin-top: -4px;
+}
