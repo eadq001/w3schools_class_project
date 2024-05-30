@@ -1,0 +1,468 @@
+.language-contents{
+    padding: 50px;
+    }
+    h1{
+        font-size: 42px;
+        font: "Segoe UI", Arial, sans-serif;
+        font-weight: 400;
+        margin: 10px 0;}
+    
+    button{
+        width: 100px;
+        height: 50px;
+        background-color: #04AA6D;
+        color: #ffffff;
+        border-color: #04AA6D;
+        font-size: 18px;
+        font-family: 'Source Sans Pro', sans-serif;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        display: inline-block;
+        vertical-align: middle;
+        overflow: hidden;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        white-space: nowrap;
+        border: transparent;
+    }
+    .btn    
+    {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+    .left-btn
+    {
+        margin-right: 80%;
+    }
+    button:hover
+    {
+        background-color: #0d8056;
+    }
+    button:hover
+    {
+        background-color: #0d8056;
+    }
+    button:hover
+    {
+        background-color: #0d8056;
+    }
+    button:active
+    {
+        background-color: #0d8056;
+    }
+    .welcome
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 107%;
+        background-color: #ffdddd;
+        padding: 32px;
+        margin: 24px;
+        margin-left: -32px;
+        margin-right: -32px;
+    }
+    .welcome .welbot
+    {
+        width: 300px;
+    }
+    .intro
+    {
+        font-size: 16px;
+    }
+    .rightlogo
+    {
+        position: absolute;
+        left: 85%;
+        margin: 0px;
+        padding: 0px;
+        font-size:90px;
+        color: #ffc0c7;
+    }
+    /* =============================== */
+    .inside
+    {
+        display: flex;
+        text-align: center; 
+        margin-left: 40px; 
+    }
+    .Django
+{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10px;
+        margin-right: 100px;
+        font-size: 12px;
+}
+.Django > a:hover{
+    background-color: #b9dfc7 !important;
+}
+.Django > a{
+    background-color: #D9EEE1;
+    color: #000;
+}
+    .Display
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 10px;
+    margin-right: 100px;
+    font-size: 12px;
+}
+.Display > a:hover{
+    background-color: #5cbcbc !important;
+}
+
+.Display> a {
+    background-color: #96D4D4;
+    color: #000;
+}
+    .Admin
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 10px;
+    margin-right: 100px;
+    font-size: 12px;
+}
+.Admin > a:hover{
+    background-color: #ffed66 !important;
+}
+.Admin > a {
+    background-color: #FFF4A3;
+    color: #000;
+}
+    .Syntax
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 10px;
+    margin-right: 100px;
+    font-size: 12px;
+}
+.Syntax > a
+{
+    background-color: #FFC0C7;
+    color: #000;
+}
+.Syntax > a:hover {
+    background-color:  #ff808e;
+}
+    .QuerySets
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 10px;
+    margin-right: 100px;
+    font-size: 12px;
+}
+.QuerySets > a:hover{
+    background-color: #b9dfc7 !important;
+}
+.QuerySets > a{
+    background-color: #D9EEE1;
+    color: #000;
+}
+    .StaticFiles
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 10px;
+    margin-right: 100px;
+    font-size: 12px;
+}
+.StaticFiles > a:hover{
+    background-color: #5cbcbc !important;
+}
+
+.StaticFiles > a {
+    background-color: #96D4D4;
+    color: #000;
+}
+    .PostgreSQL
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 10px;
+    margin-right: 100px;
+    font-size: 12px;
+}
+.PostgreSQL > a:hover{
+    background-color: #ffed66 !important;
+}
+.PostgreSQL > a {
+    background-color: #FFF4A3;
+    color: #000;
+}
+    .Deploy
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 10px;
+    margin-right: 100px;
+    font-size: 10px;
+}
+.Deploy > a
+{
+    background-color: #FFC0C7;
+    color: #000;
+}
+.Deploy > a:hover {
+    background-color:  #ff808e;
+}
+/* ==================================== */
+    h2
+    {
+        font-size: 33px;
+        font-weight: 400;
+    }
+    h3
+    {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    h4
+    {
+        font-size: 15px;
+        font-weight: 400;
+        width: 100px;
+    }
+    .pelle-divider 
+    {
+        border-right: 2px solid #D9EEE1;
+        font-size: 10px;
+    }
+    .button
+    {
+        background-color: #b9dfc7;
+        border-radius: 5px;
+        width: 100px;
+        padding: 5px;
+    }
+    .button:active
+    {
+        background-color: #0d8056;
+    }
+    .button:hover
+    {
+        background-color: #0d8056;
+    }
+    .sidebar-links > h3
+    {
+      font-size: 24px;
+      font-weight: 400;
+      text-align: left;
+      margin-left: 30px;
+      margin-bottom: 2px;
+      margin-top: 0px;
+    }
+    .sidebar-links > h3:nth-child(1)
+    {
+        font-size: 24px;
+        font-weight: 400;
+        text-align: left;
+        margin-top: 15px;
+        margin-left: 30px;
+        margin-bottom: 2px
+    }
+    /* ============================= */
+    img 
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .but
+    {
+        width: 150px;
+        font-size: 15px;
+        margin-top:-300px;
+        margin-left: 50px;
+    }
+    .bot
+    {
+        text-decoration:underline;
+        position: absolute;
+        margin-top:-70px;
+        margin-left: -150px;
+    }
+    .bot:hover
+    {
+        color: #0d8056
+    }
+    /*==================================  */
+.dquiz
+{
+    background-color:  #2196F3 !important;
+     color: #fff !important;
+     font-size: 15px;
+     width: 130px;
+}
+.dquiz:hover {
+    color: #fff !important;
+    background-color: #0d8bf2 !important;
+}
+/* ================================== */
+.p33 {
+    background-color: #282A35 !important;
+    color: white !important;
+    width: 250px;
+    font-size:15px; 
+    position: absolute;
+    margin-top:-300px;
+    margin-left: 600px;
+}
+.p33:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+.p32
+{
+    width:150px ;
+    margin-top: -120px;
+    margin-left: 50px;
+}
+/* ========================= */
+.bot3
+{
+    display: flex;
+    
+}
+.bot3 .one
+{
+    margin-right: 10px;
+    width: 200px;
+    height: 60px;
+    color: #000 !important;
+    background-color: grey;
+}
+.one:hover
+{
+    background-color: #000 !important;
+    color: white !important;
+}
+.bot3 .two
+{
+    margin-right: 10px;
+    width: 200px;
+    height: 60px;
+    color: #000 !important;
+    background-color: grey;
+}
+.two:hover
+{
+    background-color: #000 !important;
+    color: white !important;
+}
+.bot3 .three
+{
+    margin-right: 10px;
+    width: 200px;
+    height: 60px;
+    color: #000 !important;
+    background-color: grey;
+}
+.three:hover
+{
+    background-color: #000 !important;
+    color: white !important;
+}
+/* ================= */
+    .imgs > img 
+    {
+        width: 850px;
+    }
+    /* .imgs
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    } */
+    .get-cert   
+    {
+        position: absolute;
+        background-color: #059862;
+        color: white;
+        border-radius: 100px;
+        padding: 20px;
+        top: 2295px;
+        font-weight: bold;
+        width: 190px;
+        text-align: center;
+        align-self: flex-start;
+        margin-left: 90px;
+    }
+    .get-cert:hover
+    {
+        background-color: #0d8056;
+    }
+    .get-cert:active
+    {
+        background-color: #0d8056;
+    }
+    
+    #img
+    {
+        width: 860px;
+    }
+    footer > img
+    {
+        width: 76.2%;
+        height: 100%;
+        margin-left: 300px;
+    }
+    .SU
+    {
+        position: relative;
+        background-color: #059862;
+        color: white;
+        padding: 15px;
+        border-radius: 50px;
+        z-index: 2;
+        margin-top: -1000px;
+    }
+    .LI
+    {
+        position: relative;
+        background-color: #D9EEE1;
+        color: black;
+        padding: 15px;
+        border-radius: 50px;
+        padding-left: 50px;
+        z-index: 1;
+        margin-left: -50px;
+    }
+    .footer
+    {
+        position: absolute;
+        margin-left: 645px;
+        margin-top: -80px;
+    }
+    .LI:hover
+    {
+       background-color: #0d8056;
+    }
+    .LI:active
+    {
+        background-color: #0d8056;
+    }
+    .SU:hover
+    {
+       background-color: #0d8056;
+    }
+    .SU:active
+    {
+        background-color: #0d8056;
+    }

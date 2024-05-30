@@ -1,0 +1,321 @@
+.sidebar {
+    background-color: #e7e9eb;
+    white-space: nowrap;
+    position: fixed;
+    top: 85px;
+    left: 0;
+    overflow-y: scroll;
+    margin-top: 0;
+    width: 300px;
+    height: 650px;
+    z-index: 100;
+  }
+  
+  main.language-contents {
+    margin-left: 300px;
+  }
+  
+  .sidebar::-webkit-scrollbar {
+    display: default;
+  }
+  .sidebar-title {
+    padding-left: 20px;
+  }
+  
+  main .sidebar-links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .sidebar-links a {
+    padding: 17px 40px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar-links a:hover {
+    color: white;
+    background-color: #45464b9a;
+  }
+
+
+
+.j{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.j P{
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 45px;
+}
+
+  .button1{
+    position: relative;
+    background-color: #08ab6f;
+    color: white;
+    width: 100px; 
+    height: 50px; 
+    border: none;
+    font-size: medium;
+    font-weight:bolder;
+    margin-left: 50px;
+    border-radius: 10px;
+  }
+  .button1:hover
+{
+  background-color: rgb(3, 86, 3);
+}
+  .button2{
+    position: absolute;
+    background-color: #08ab6f;
+    color: white;
+    width: 100px; 
+    height: 50px; 
+    border: none;
+    font-size: medium;
+    font-weight:bolder;
+    margin-left: 665px;
+    border-radius: 10px;
+  }
+  .button2:hover
+{
+  background-color: rgb(3, 86, 3);
+}
+
+  .z
+  {
+    background-color: rgb(109, 235, 109, 0.2);
+    margin-left: 30px;
+    width: 900px;
+    height: 300px;
+    border-radius: 10px;
+  }
+
+  #j1{
+    font-size: 35px;
+    padding-left: 40px;
+    padding-top: 30px;
+  }
+
+  #j2{
+    font-size: 16px;
+    padding-left: 40px;
+  }
+
+  .z1{
+    background-color: #08ab6f;
+    width: 300px;
+    height: 50px;
+    margin-left: 40px;
+    border-radius: 10px;
+  }
+  .z1:hover
+  {
+    background-color:rgba(1, 78, 29, 0.9);
+  }
+
+#j3{
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.z2{
+  padding-left: 45px;
+}
+
+#j4
+{
+  font-size: 35px;
+}
+
+#j5
+{
+  font-size: 16px;
+}
+
+.joyce1
+{
+  width: 900px;
+  height: 190px;
+  margin-left: 30px;
+}
+
+#j6{
+  font-size: 15px;
+  font-weight: bolder;
+  padding-left: 50px;
+}
+
+.z3{
+  background-color: rgb(235, 235, 19, 0.2);
+  width: 960px;
+  height: 75px;
+}
+#j7{
+  font-size: 16px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+#j8{
+  font-size: 35px;
+  padding-left: 40px;
+}
+
+.joyce2{
+  width: 900px;
+  height: 500px;
+  margin-left: 30px;
+}
+
+.z4{
+  padding-left:40px;
+}
+
+#j9{
+  font-size: 35px;
+}
+
+#j10{
+  font-size: 19px;
+
+}
+.z5{
+  background-color: rgba(1, 1, 254, 0.7);
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+}
+.z5:hover
+{
+  background-color:rgba(1, 1, 254, 0.9);
+}
+
+#j11{
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.z6{
+  padding-left: 10px;
+}
+#j12{
+  font-size: 35px;
+}
+#j13{
+  font-size: 16px;
+}
+.joyce3{
+  width:800px;
+  height: 300px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.z7{
+  padding-left: 10px;
+}
+
+#j14{
+  font-size: 35px;
+}
+.j15{
+  font-size: 16px;
+}
+.z8{
+  background-color: rgb(210, 200, 200, 0.2);
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+}
+.z8:hover
+{
+  background-color:rgb(77, 74, 74,0.8);
+}
+#j16{
+  color: black;
+  font-size: 16px;
+  padding-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.z9{
+  padding-left: 10px;
+}
+#j17{
+  font-size: 35px;
+}
+#j18{
+  font-size: 16px;
+}
+.l1{
+  text-decoration: underline;
+}
+.l1:hover
+{
+  color:#08ab6f;
+}
+
+.button3{
+  position: relative;
+  background-color: #08ab6f;
+  color: white;
+  width: 100px; 
+  height: 50px; 
+  border: none;
+  font-size: medium;
+  font-weight:bolder;
+  margin-left: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.button3:hover
+{
+  background-color: rgb(3, 86, 3);
+}
+.button4{
+  position: absolute;
+  background-color: #08ab6f;
+  color: white;
+  width: 100px; 
+  height: 50px; 
+  border: none;
+  font-size: medium;
+  font-weight:bolder;
+  margin-left: 60px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.button4:hover
+{
+  background-color: rgb(3, 86, 3);
+}
+
+.joyce6
+{
+    width: 880px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.joyce5{
+    width: 1200px;
+    height: 700px;
+    margin-top: 200px;
+}
+
+.joyce4
+{
+    width: 1200px;
+    height: 300px;
+    margin-top: -4px;
+}
