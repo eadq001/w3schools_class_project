@@ -1,0 +1,247 @@
+
+
+  h1{
+    font-size: 43px;
+    font-weight: 400;
+    font-family: Segoe UI;
+    padding-left: 320px;
+    padding-top: 180px;
+  }
+  
+  .button1{
+   margin-left: 320px;
+   margin-top: -15px;
+   background-color: #04AA6D;
+   color: white;
+   width: 100px;
+   height: 45px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 17px;
+   font-weight: 553;
+   font-family: Segoe UI;
+  }
+
+  .button1:hover{
+    background-color: #1c9c61;
+  }
+
+  .button2{
+    margin-left: 770px;
+    margin-top: -15px;
+    background-color: #04AA6D;
+    color: white;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 553;
+    font-family: Segoe UI;
+  }
+
+  .button2:hover{
+    background-color: #1c9c61;
+  }
+
+  .nextobutton1{
+    background-color:#D9EEE1;
+    width: 1398px;
+    height: 250px;
+    margin-top: 50px;
+  }
+
+  .para1{
+    padding-left: 320px;
+    font-size: 15px;
+    padding-top: 20px;
+    font-family: Segoe UI;
+    font-weight: 500;
+  }
+
+  .buttonp{
+    margin-top: 50px;
+    background-color: #04AA6D;
+    color: white;
+    width: 300px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 550;
+    font-family: Source Sans Pro', sans-serif;
+  }
+
+  .buttonp:hover{
+    background-color: #1c9c61;
+  }
+
+  .nextobutton2 h1{
+    margin-top: -100px;
+    font-size: 32px;
+    padding-left: 320px;
+    font-family: Segoe UI;
+    font-weight: 400;
+  }
+
+  .nextobutton2 p{
+    padding-left: 320px;
+    font-size: 15px;
+    font-family: Segoe UI;
+  }
+
+  .para2{
+    padding-top: 1px;
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .nextobutton2 h2{
+    margin-top: 50px;
+    font-size: 30px;
+    padding-left: 320px;
+    font-family: Segoe UI;
+    font-weight: 400;
+  }
+
+  .photo{
+    background-color: #E7E9EB;
+    width: 1040px;
+    height: 450px;
+    margin-left: 293px;
+    border-radius: 5px;
+  }
+
+.photo img{
+    width: 1010px;
+    height: 370px;
+    padding-top: 30px;
+    padding-left: 30px;
+    
+  }
+
+  .photo1{
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: #04AA6D;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 630;
+    font-family: Segoe UI;
+  } 
+
+  .photo1:hover{
+    background-color: #1c9c61;
+  }
+
+  .solve_btn{
+    margin-left: 320px;
+   margin-top: -1px;
+   background-color: #04AA6D;
+   color: white;
+   width: 130px;
+   height: 40px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 17px;
+   font-weight: 553;
+   font-family: Segoe UI;
+  } 
+
+  .solve_btn:hover{
+    background-color: #1c9c61;
+  }
+
+  .number{
+    margin-left: 20px;
+    font-family: Segoe UI;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .excel2 img{
+    width: 1320px;
+    height: 480px;
+    padding-top: 30px;
+    padding-left: 300px;
+    
+  }
+
+  .excel3 img{
+    width: 1320px;
+    height: 480px;
+    padding-top: 5px;
+    padding-left: 300px;
+    
+  }
+ 
+  .buttompic img{
+    margin-top: 20px;
+    margin-left: 280px;
+    width: 1030px;
+    height: 330px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    
+  }
+ 
+main .sidebar-links {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width:290px;
+  }
+
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 90;
+    font-size: 20px;
+    /* padding-right: 205px; */
+    padding-left: 10px;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 657px;
+    margin-top: 85px;
+    background-color: #E7E9EB;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-links a {
+      padding: 17px 50px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+      font-family:  Segoe UI;
+  
+  }
+
+.sidebar-links a.active{
+  background-color: #04AA6D !important;
+    color: #ffffff !important;
+
+}
+  
+  .sidebar-links a:hover {
+      color: black;
+      background-color: rgb(212, 211, 211)
+  }
+  
+
+ 

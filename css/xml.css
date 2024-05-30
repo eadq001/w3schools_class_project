@@ -1,0 +1,446 @@
+
+  h1{
+    font-size: 43px;
+    font-weight: 400;
+    font-family: Segoe UI;
+    padding-left: 320px;
+    padding-top: 180px;
+  }
+  
+  .button1{
+   margin-left: 320px;
+   margin-top: -15px;
+   background-color: #04AA6D;
+   color: white;
+   width: 100px;
+   height: 45px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 17px;
+   font-weight: 553;
+   font-family: Segoe UI;
+  }
+
+  .button1:hover{
+    background-color: #1c9c61;
+  }
+
+  .button2{
+    margin-left: 770px;
+    margin-top: -15px;
+    background-color: #04AA6D;
+    color: white;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 553;
+    font-family: Segoe UI;
+  }
+
+  .buttonp1:hover{
+    background-color: #1c9c61;
+  }
+
+  .nextobutton1{
+    background-color:#D9EEE1;
+    width: 1330px;
+    height: 250px;
+    margin-top: 50px;
+  }
+
+  .nextobutton1 .para1{
+    padding-left: 320px;
+    font-size: 15px;
+    padding-top: 20px;
+    font-family: Segoe UI;
+    font-weight: 500;
+  }
+
+.buttonxml{
+  margin-top: 30px;
+  background-color: #04AA6D;
+  color: white;
+  width: 250px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 550;
+  font-family: Source Sans Pro', sans-serif;
+}
+
+  .nextobutton2{
+    width: 1330px;
+    height: 380px;
+    background-color: #E7E9EB;
+    border-radius: 5px;
+
+  }
+
+  .nextobutton2 h1{
+    margin-top: px;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-left: 320px;
+    font-family: Segoe UI;
+    font-weight: 400;
+  }
+
+  .nextobutton2 img{
+    width: 1300px;
+    height: 200px;
+    padding-top: 1px;
+    padding-left: 320px;
+    
+  }
+
+  .buttonp1{
+    margin-left: 320px;
+    margin-top: 20px;
+    background-color: #04AA6D;
+    color: white;
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 550;
+    font-family: Source Sans Pro', sans-serif;
+  }
+
+  .button2:hover{
+    background-color: #1c9c61;
+  }
+
+
+  .buttonp2{
+    background-color: #04AA6D;
+    color: white;
+    width: 300px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 550;
+    font-family: Source Sans Pro', sans-serif;
+  }
+
+  .buttonp2:hover{
+    background-color: #1c9c61;
+  }
+
+  .nextobutton3{
+    width: 1330px;
+    height: 880px;
+    background-color: #E7E9EB;
+    border-radius: 5px;
+
+  }
+
+  .nextobutton3 img{
+    width: 1300px;
+    height: 700px;
+    padding-top: 1px;
+    padding-left: 320px;
+    
+  }
+
+  .nextobutton3 h1{
+    margin-top: px;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-left: 320px;
+    font-family: Segoe UI;
+    font-weight: 400;
+  }
+
+  
+  .buttonp3{
+    margin-left: 320px;
+    margin-top: 20px;
+    background-color: #04AA6D;
+    color: white;
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 550;
+    font-family: Source Sans Pro', sans-serif;
+  }
+
+  .buttonp3:hover{
+    background-color: #1c9c61;
+  }
+
+  
+  .buttonp4{
+    margin-left: 5px;
+    margin-top: 20px;
+    background-color: #04AA6D;
+    color: white;
+    width: 180px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 550;
+    font-family: Source Sans Pro', sans-serif;
+  }
+
+  .buttonp4:hover{
+    background-color: #1c9c61;
+  }
+
+
+
+   .nextobutton4 h1{
+    margin-top: -100px;
+    font-size: 32px;
+    padding-left: 320px;
+    font-family: Segoe UI;
+    font-weight: 400;
+  }
+
+  .nextobutton4 p{
+    padding-left: 320px;
+    font-size: 15px;
+    padding-top: 20px;
+    font-family: Segoe UI;
+    font-weight: 400;
+  }
+
+  .nextobutton5 h1{
+    margin-top: -100px;
+    font-size: 32px;
+    padding-left: 320px;
+    font-family: Segoe UI;
+    font-weight: 400;
+  }
+
+  .nextobutton5 p{
+    padding-left: 320px;
+    font-size: 15px;
+    padding-top: 20px;
+    font-family: Segoe UI;
+    font-weight: 400;
+  }
+
+  ul {
+    margin-left: 300px;
+  }
+
+  ul li{
+    font-size: 15px;
+    padding-top: 20px;
+    font-family: Segoe UI;
+    font-weight: 400;
+    
+  }
+
+  .nextobutton6{
+    width: 1330px;
+    height: 100px;
+    background-color: #ffffcc;
+    border-radius: 5px;
+
+  }
+
+  .nextobutton6 p{
+    padding-left: 320px;
+    font-size: 15px;
+    padding-top: 40px;
+    font-family: Segoe UI;
+    font-weight: 400;
+  }
+
+  .nextobutton7{
+    width: 1200px;
+    height: 100px;
+    border-radius: 5px;
+    padding-top: -100px;
+    margin-top: -150px;
+  }
+
+  .nextobutton7 p{
+    padding-left: 320px;
+    font-size: 15px;
+    padding-top: 40px;
+    font-family: Segoe UI;
+    font-weight: 400;
+  
+  }
+
+  .nextobutton8{
+    width: 1200px;
+    height: 100px;
+    border-radius: 5px;
+    padding-top: -100px;
+    margin-top: 400px;
+  }
+
+  .nextobutton8 p{
+    padding-left: 320px;
+    font-size: 15px;
+    padding-top: 40px;
+    font-family: Segoe UI;
+    font-weight: 400;
+  }
+
+
+  .nextobutton9{
+    width: 1200px;
+    height: 100px;
+    border-radius: 5px;
+    padding-top: -100px;
+    margin-top: 300px;
+  }
+
+  .nextobutton9 h1{
+    margin-top: -100px;
+    font-size: 32px;
+    padding-left: 320px;
+    font-family: Segoe UI;
+    font-weight: 400;
+  }
+
+
+  .nextobutton9 p{
+    padding-left: 320px;
+    font-size: 15px;
+    padding-top: 40px;
+    font-family: Segoe UI;
+    font-weight: 400;
+  }
+
+  .nextobutton9 img{
+    width: 1180px;
+    height: 400px;
+    padding-top: 1px;
+    padding-left: 320px;
+    
+  }
+
+  .xml1 img{
+    width: 1300px;
+    height: 620px;
+    padding-top: 1px;
+    padding-left: 320px;
+    margin-top: 800px;
+  }
+
+  .button3{
+    margin-left: 320px;
+    margin-top: 50px;
+    background-color: #04AA6D;
+    color: white;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 553;
+    font-family: Segoe UI;
+   }
+ 
+   .button3:hover{
+     background-color: #1c9c61;
+   }
+ 
+   .button4{
+     margin-left: 770px;
+     margin-top: 50px;
+     background-color: #04AA6D;
+     color: white;
+     width: 100px;
+     height: 45px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 17px;
+     font-weight: 553;
+     font-family: Segoe UI;
+   }
+ 
+   .button4:hover{
+     background-color: #1c9c61;
+   }
+
+
+   .buttompic img{
+    margin-top: 20px;
+    margin-left: 280px;
+    width: 1030px;
+    height: 230px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+   }
+
+   .footer{
+    margin-top: 20px;
+    margin-left: 280px;
+    width: 1300px;
+    height: 900px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+   }
+
+  main .sidebar-links {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width:290px;
+  }
+
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 90;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 85px;
+    left: 0;
+    width: 280px;
+    height: 657px;
+    background-color: #E7E9EB;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-links a {
+      padding: 17px 50px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+      font-family:  Segoe UI;
+  
+  }
+
+.sidebar-links a.active{
+  background-color: #04AA6D !important;
+    color: #ffffff !important;
+
+}
+  
+  .sidebar-links a:hover {
+      color: black;
+      background-color: rgb(212, 211, 211)
+  }
+  
+
+
+ 
