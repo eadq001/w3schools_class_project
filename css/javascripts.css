@@ -1,0 +1,178 @@
+/* main styles */
+
+.sidebar {
+    background-color: #e7e9eb;
+    white-space: nowrap;
+    position: fixed;
+    top: 85px;
+    left: 0;
+    overflow-y: scroll;
+    margin-top: 0;
+    width: 300px;
+    height: 650px;
+    z-index: 100;
+  }
+  
+  main.language-contents {
+    margin-left: 300px;
+  }
+  
+  .sidebar::-webkit-scrollbar {
+    display: default;
+  }
+  .sidebar-title {
+    padding-left: 20px;
+  }
+  
+  main .sidebar-links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .sidebar-links a {
+    padding: 17px 40px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar-links a:hover {
+    color: white;
+    background-color: #45464b9a;
+  }
+
+
+
+
+.tutorial
+{
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.home
+{
+  width: 100px;
+  height: 50px;
+  background-color: #08ab6f;
+  border: none;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.Next
+{
+  position: absolute;
+  margin-left: 800px;
+  width: 100px;
+  height: 50px;
+  background-color: #08ab6f;
+  border: none;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.js
+{
+
+  margin-top: 50px;
+ background-color: #a1eacf;
+ height: 300px;
+ padding:10px 15px;
+ 
+}
+.learning
+{
+  
+  width: 310px;
+  height: 50px;
+  background-color: #08ab6f;
+  border: none;
+  color: white;
+  font-size: larger;
+  border-radius: 5px;
+}
+.firstJS
+{
+  display: flex;
+  justify-content: center;
+  background-image: url(myfirstjava.png);
+  width: 500px;
+  height: 350px;
+  background: no-repeat;
+
+}
+.ifyoutry
+{
+
+  background-color: lightyellow;
+  height: 95px;
+
+}
+.jsExamples
+{
+  width: 250px;
+  height: 40px; 
+  background-color: #08ab6f;
+  border: none;
+  color: white;
+  font-size: larger;
+  border-radius: 5px;
+}
+.this
+{
+  margin-top: 50px;
+  background-color: #a1eacf;
+  height: 150px;
+   padding:10px 15px;
+   
+}
+.Exercises
+{
+  height: 600px;
+  width: 100%;
+  
+}
+.mylearning
+{
+  background-image: url(mylearning.png);
+  height: 700px;
+  width: 100%;
+}
+.complete{
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #08ab6f;
+  color: white;
+}
+.hom{
+  width: 100px;
+  height: 50px;
+  background-color: #08ab6f;
+  border: none;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+button:hover{
+  background-color: #039660;
+}
+.nex{
+  width: 100px;
+  height: 50px;
+  background-color: #08ab6f;
+  border: none;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-left: 800px;
+}

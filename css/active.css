@@ -1,7 +1,14 @@
+.active {
+    background-color: #08ab6f !important;
+    color: white !important;
+
+}
+
 .bottom_nav .active {
-    background-color: #08ab6f;
+    background-color: #08ab6f !important;
 }
 
 .active:hover {
     background-color:  #08ab6f !important;
 }
+

@@ -46,6 +46,7 @@
     padding: 0 1rem;
     align-items: center;
     z-index: 1;
+    background-color: white;
   }
   
   .logo-links,
@@ -151,10 +152,11 @@
   
   /* bottom nav styles */
   .bottom_nav {
-    position: fixed;
+    position: sticky;
     overflow: hidden;
     margin-top: 50px;
     z-index: 1;
+    white-space: nowrap;
   
   }
   
@@ -199,7 +201,7 @@
       background-color: var(--black);
   }
   
-  .left-arrow, .right-arrow {
+  .left-arrow {
     position: absolute;
     width: 35px;
     background-color: var(--dark-grey);
@@ -211,9 +213,15 @@
   .left-arrow {
     transform: translateX(-35px);
   }
+
+  .right-arrow:hover {
+    cursor: pointer;
+  }
   
   .right-arrow {
-    transform: translateX(5px);
+    position: absolute;
+    right: 0;
+    transform: translateX(-15px);
     right: 0;
     width: 40px;
     justify-content: flex-end;
