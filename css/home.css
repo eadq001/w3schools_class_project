@@ -216,3 +216,7 @@ border-left: 3px solid var(--light-green);
 .pinkish-btn:hover {
     background-color: #d6979d;
 }
+
+footer img {
+    width: 100%;
+}
