@@ -130,7 +130,7 @@ footer{
     padding-top: 50px;
     display: inline;
     display: flex;
-    justify-content: space-between;
+    gap: 700px;
 }
 .button6{
     background-color: #04AA6D;
