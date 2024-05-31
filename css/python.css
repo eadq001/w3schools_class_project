@@ -1,284 +1,47 @@
 :root {
-    --dark-green: #0d8056;
-    --light-green: #08ab6f;
-  
-    --dark-grey: #282a35;
-    --black: rgb(0, 0, 0);
-  }
-  
-  html {
-    font-family: "Source Sans Pro Topnav", sans-serif;
-  }
-  
-  body {
-      margin: 0;
-      
-  }
-  
-  .flow--spacer > * + * {
-    margin-left: 1rem;
-  }
-  
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-  
-  a {
-    text-decoration: none;
-    color: var(--black);
-    letter-spacing: 0.5px;
-  }
-  
-  img {
-    width: 40px;
-  }
-  
-  
-  /* top nav styles */
-  .top-nav {
-    position: fixed;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 1rem;
-    align-items: center;
-    z-index: 1;
-    background-color: white;
-  }
-  
-  .logo-links,
-  .text-links {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo-links a {
-    display: flex;
-    align-items: center;
-    height: 50px;
-  }
-  
-  .logo-links a:hover {
-    color: white;
-    background-color: var(--light-green);
-  }
-  
-  .text-links a {
-    padding: 0 15px;
-  }
-  
-  .search_bar {
-    height: 35px;
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    border: 1px solid black;
-    border-radius: 100vw;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .search_bar:focus {
-    outline: 2px solid var(--light-green);
-  }
-  
-  .search {
-    max-width: 80%;
-    border-radius: 100vw;
-    border: none;
-    padding: 0 0 0 15px;
-    margin-right: 3px;
-    outline: none;
-  }
-  
-  #image-link:hover {
-    background-color:transparent;
+  --dark-green: #0d8056;
+  --light-green: #08ab6f;
+
+  --dark-grey: #282a35;
+  --black: rgb(0, 0, 0);
+}
+
+html {
+  font-family: "Source Sans Pro Topnav", sans-serif;
+}
+
+body {
+    margin: 0;
     
-  }
-  
-  .fa-caret-down {
-    margin-left: 2px;
-  }
-  
-  .fa-magnifying-glass {
-    font-weight: 1.5rem;
-    position: absolute;
-    right: 1px;
-    padding: 5px;
-  }
-  
-  .search-icon:hover {
-    color: black !important;
-  }
-  
-  .signup_login {
-    display: flex;
-    border-radius: 100vw;
-    overflow: hidden;
-  }
-  
-  .signup__container {
-    padding: 10px 20px;
-    width: 100px;
-    background-color: var(--light-green);
-    color: white;
-    border-radius: 100vw;
-    position: relative;
-    z-index: 1;
-    margin-left: 500px;
+}
 
-  }
-  
-  .signup__container:hover {
-    background-color: var(--dark-green);
-  }
-  
-  .login__container:hover {
-    color: white;
-    background-color: var(--dark-green);
-  }
-  
-  .login__container {
-    transform: translateX(-25px);
-    width: 100%;
-    padding: 10px 20px 10px 37px;
-    background-color: #21e69d15;
-    border-radius: 0 100vw 100vw 0;
-  }
-  
-  
-  /* bottom nav styles */
-  .bottom_nav {
-    position: sticky;
-    overflow: hidden;
-    margin-top: 50px;
-    z-index: 1;
-    white-space: nowrap;
-  
-  }
-  
-  .bottom_nav .links  {
-      background-color: var(--dark-grey);
-      display: flex;
-      align-items: center;
-      height: 40px;
-      letter-spacing: 0.5px;
-      overflow-x: scroll;
-  }
-  
-  .bottom_nav .links::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .links{
-    padding: 0 35px;
-  }
-  
-  .scroll::before {
-    display: flex;
-    align-items: center;
-    height: 40px;
-  
-  }
-  
-  .scroll:hover {
-    background-color: var(--black);
-  }
-  
-  .bottom_nav a{
-      height: 100%;
-      padding: 0 11px;
-      display: flex;
-      align-items: center;
-      color: white;
-      
-  }
-  
-  .bottom_nav a:hover {
-      background-color: var(--black);
-  }
-  
-  .left-arrow {
-    position: absolute;
-    width: 35px;
-    background-color: var(--dark-grey);
-    cursor: pointer;
-  
-  
-  }
-  
-  .left-arrow {
-    transform: translateX(-35px);
-  }
-
-  .right-arrow:hover {
-    cursor: pointer;
-  }
-  
-  .right-arrow {
-    position: absolute;
-    right: 0;
-    transform: translateX(-15px);
-    right: 0;
-    width: 40px;
-    justify-content: flex-end;
-  }
-  
-  /* main styles */
-  main {
-      display: grid;
-      grid-template-columns: 15% auto;
-      letter-spacing: 0.5px;
-      height: 100dvh;
-  
-  }
-  
-  .sidebar {
-      background-color: #E7E9EB;
-      width: 280px;
-      height: 640px;
-      position: fixed;
-      margin-top: 90px;
-      top: 0;
-      left: 0;
-      display: flex;
-      flex-direction: column;
-  } 
-  
-  .sidebar-title {
-      padding-left: 20px;
-  }
-  
-  main .sidebar-links {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-  }
-  
-  .sidebar-links a {
-      padding: 17px 40px;
-      height: 25px;
-      display: flex;
-      align-items: center;
-  }
-  
-  .sidebar-links a:hover {
-      color: rgb(0, 0, 0);
-      background-color: #45464b9a;
-  }
-
-  h2{
-    font-weight: 90;
-  }
-
-  .scrollbox{
-    overflow: auto;
-  }
+.flow--spacer > * + * {
+  margin-left: 1rem;
+}
 
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+  letter-spacing: 0.5px;
+}
+
+
+.pythoncontent {
+  margin-left:310px;
+  overflow: hidden;
+
+}
+
+h2{
+  font-weight: 90;
+}
 
 
 .body1 p{
@@ -286,17 +49,12 @@
 }
 
 p{
-  position: absolute;
-  margin-left: 320px;
-  margin-top: 200px;
+  margin-top: 50px;
   font-size: 40px;
 }
 
 .button1{
-  position: absolute;
   background-color:#059862;
-  margin-left: 320px;
-  margin-top: 260px;
   border: none;
   color: white;
   border-radius: 5px;
@@ -312,10 +70,8 @@ p{
 }
 
 .button2{
-  position: absolute;
   background-color:  #059862;
-  margin-left: 1100px;
-  margin-top: 260px;
+  margin-left: 745px;
   border: none;
   color: white;
   border-radius: 5px;
@@ -330,35 +86,40 @@ p{
   background-color: #157954;
 }
 
-.body2{
-  background-color:#D9EEE1;
-  height: 250px;
-  width:950px ;
-  position: absolute;
-  margin-left: 280px;
-  margin-top: 350px;
-  
-}
+.body2 {
+    background-color:#D9EEE1;
+    width:950px ;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
-.body2 p{
+  }
+
+  .body2 p{
     margin-left: 40px;
     margin-top: 45px;
     font-size: 30px;
+    font-family:"Segoe UI", Arial, sans-serif ;
 }
 
+p.article-title {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
 #p1 {
-  margin-top: 90px;
+  margin-top: 15px;
   font-family:"Segoe UI", Arial, sans-serif ;
   font-size: 15px;
   font-weight: 600;
+  margin-left: 10px;
 }
 
 
 .button3{
-  position: absolute;
   background-color:#059862;
-  margin-left: 40px;
-  margin-top: 165px;
+  margin-left: 10px;
   border: none;
   color: white;
   border-radius: 5px;
@@ -374,73 +135,73 @@ p{
 }
 
 .body3 p{
-  margin-left: 320px;
-  margin-top: 650px;
+  margin-top: 30px;
   font-size: 30px;
+  font-family:"Segoe UI", Arial, sans-serif ;
 }
 
-#p3{
-  margin-left: 320px;
-  margin-top: 710px;
+#p2{
   font-family:"Segoe UI", Arial, sans-serif ;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
-.body4{
-  background-color:#E7E9EB ;
-  height: 190px;
-  width:920px ;
-  position: absolute;
-  margin-left: 295px;
-  margin-top: 770px;
+.body4 {
+  width: 920px;
+  background-color: #E7E9EB;
+  margin-top: 65px;
   border-radius: 5px;
+  padding:1.5rem 1rem ;
 }
+
+
+#p4 {
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+}
+
 
 .body4 p{
-  margin-left: 20px;
-  margin-top: 20px;
-  font-size: 25px;
-  font-family:"Segoe UI", Arial, sans-serif ;
- 
+  display: inline;
+  margin-top: 18px;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-family:"Segoe UI", Arial, sans-serif 
 }
 
 .button4{
-  background-color: rgb(41, 41, 41);
-  color: white;
-  font-family:"Segoe UI", Arial, sans-serif ;
-  border-radius: 5px;
-  height: 40px;
-  width: 250px;
-  font-size: 17px;
-  margin-left: 650px;
-  margin-top: 20px;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-.button4:hover{
-  background-color: black;
-}
-
-.body4 img{
-  height: 40px;
-  width: 880px;
-  margin-left: 20px;
-  margin-top: 18px;
-}
-
-.button5{
-  position: absolute;
-  background-color:#059862;
-  margin-left: -880px;
-  margin-top: 75px;
+  background-color:#282A35;
+  margin-left: 500px;
+  display: inline-block;
   border: none;
   color: white;
   border-radius: 5px;
   font-size: 18px;
-  width: 190px;
+  width: 240px;
   height: 40px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  cursor: pointer;
+}
+
+.button4:hover{
+  background-color: #1f2128;
+}
+
+.body4 img{
+  height: 140px;
+  width: 880px;
+  margin-top: 15px;
+}
+
+.button5{
+  background-color:#059862;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 15px;
+  width: 150px;
+  height: 35px;
   font-family:"Segoe UI", Arial, sans-serif ;
   cursor: pointer;
 }
@@ -449,172 +210,59 @@ p{
   background-color: #157954;
 }
 
-#p4{
-  margin-left:20px;
-  margin-top: 90px;
+#p3{
+  margin-top: 30px;
   font-family:"Segoe UI", Arial, sans-serif ;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
 }
 
-.body5 p{
-  font-family:"Segoe UI", Arial, sans-serif ;
-  font-size: 30px;
-  font-weight: 400;
-  margin-top: 1050px;
-  margin-left: 315px;
+.body5{
+  height: 150px;
+  width: 950px;
+  border-radius: 5px;
 }
 
-#p5{
-  margin-left: 315px;
-  margin-top: 1110px;
+#p4{
+  margin-top: 30px;
   font-family:"Segoe UI", Arial, sans-serif ;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 600;
 }
 
-#p6{
-  margin-left: 315px;
-  margin-top: 1150px;
-  font-family:"Segoe UI", Arial, sans-serif ;
-  font-size: 16px;
-  font-weight: 500;
-  text-decoration: underline;
+#p11 {
+  font-size: 15px !important;
+  font-weight: 600;
 }
 
 .body6 p{
-  font-family:"Segoe UI", Arial, sans-serif ;
+  margin-top: 50px;
   font-size: 30px;
-  font-weight: 400;
-  margin-top: 1200px;
-  margin-left: 315px;
+  font-family:"Segoe UI", Arial, sans-serif ;
 }
 
-#p7{
-  margin-left: 315px;
-  margin-top: 1250px;
-  font-family:"Segoe UI", Arial, sans-serif ;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-#p8{
-  margin-left: 315px;
-  margin-top: 1300px;
-  font-family:"Segoe UI", Arial, sans-serif ;
-  font-size: 16px;
-  font-weight: 500;
-  text-decoration: underline;
-}
-
-#p9{
-  margin-left: 315px;
-  margin-top: 1340px;
-  font-family:"Segoe UI", Arial, sans-serif ;
-  font-size: 16px;
-  font-weight: 500;
-  text-decoration: underline;
+.body6 img{
+  height: 600px;
+  width: 930px;
+  margin-top: 20px;
 }
 
 .body7 p{
-  font-family:"Segoe UI", Arial, sans-serif ;
+  margin-top: 50px;
   font-size: 30px;
-  font-weight: 400;
-  margin-top: 1400px;
-  margin-left: 315px;
+  font-family:"Segoe UI", Arial, sans-serif ;
 }
 
-.body7 img{
-  height: 500px;
-  width: 930px;
-  margin-top: 1480px;
-  margin-left:290px ;
+#p5{
+  margin-top: 20px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .button6{
-  position: absolute;
-  background-color:#059862;
-  margin-left: -891px;
-  margin-top: 1826px;
-  border: none;
-  color: white;
-  border-radius: 5px;
-  font-size: 18px;
-  width: 170px;
-  height: 40px;
-  font-family:"Segoe UI", Arial, sans-serif ;
-  cursor: pointer;
-}
 
-.button6:hover {
-  background-color: #157954;
-}
-
-#p10{
-  margin-left: 327.5px;
-  margin-top: -84px;
-  font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 16.5px;
-  font-weight: 300;
-  text-decoration: underline;
-  position: absolute;
-}
-
-.body8 p{
-  font-family:"Segoe UI", Arial, sans-serif ;
-  font-size: 30px;
-  font-weight: 400;
-  margin-top: 90px;
-  margin-left: 315px;
-}
-
-#p11{
-  margin-left: 315px;
-  margin-top: 155px;
-  font-family:"Segoe UI", Arial, sans-serif ;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.button7{
-  position: absolute;
-  margin-left: 315px;
-  margin-top: 200px;
-  background-color:#f1f1f1;
-  border: none;
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  font-size: 18px;
-  width: 220px;
-  height: 40px;
-  font-family:"Segoe UI", Arial, sans-serif ;
-  cursor: pointer;
-}
-
-.button7:hover{
-  background-color: #d1d0d0;
-}
-
-.body9 p{
-  font-family:"Segoe UI", Arial, sans-serif ;
-  font-size: 30px;
-  font-weight: 400;
-  margin-top: 280px;
-  margin-left: 315px;
-}
-
-#p12{
-  margin-left: 315px;
-  margin-top: 340px;
-  font-family:"Segoe UI", Arial, sans-serif ;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.button8{
-  position: absolute;
-  margin-left: 315px;
-  margin-top: 380px;
+  margin-top: 20px;
   background-color:#2196F3;
   border: none;
   color: rgb(255, 255, 255);
@@ -626,21 +274,151 @@ p{
   cursor: pointer;
 }
 
-.button8:hover{
+.button6:hover{
   background-color:#208ee8 ;
+}
+
+.body8 p{
+  margin-top: 60px;
+  font-size: 30px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+}
+
+#p6{  margin-top: 20px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button7{
+  white-space: nowrap;
+  padding: 0 5px;
+  margin-top: 20px;
+  background-color:#E7E9EB ;
+  border: none;
+  color: black;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 230px;
+  height: 40px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  cursor: pointer;
+}
+
+.button7:hover{
+  background-color:rgb(176, 169, 169) ;
+  color: rgb(0, 0, 0);
+}
+
+.button8{
+  white-space: nowrap;
+  padding: 0 5px;
+  margin-top: 20px;
+  background-color:#4796e6 ;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  cursor: pointer;
+}
+
+.button8:hover{
+  background-color:#3681cc ;
+
+}
+
+.body9 > * + * {
+  margin-top: 0 !important;
+  margin-bottom: 15px;
+}
+
+.body9 p{
+  font-size: 30px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+}
+
+#p12 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#p7{
+  margin-top: 20px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.body9 img{
+  height: 350px;
+  width: 750px;
+  margin-top: 20px;
+}
+
+#p8{
+  margin-top: 30px;
+  font-family:"Segoe UI", Arial, sans-serif ;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#p9{
+  font-family:"Segoe UI", Arial, sans-serif ;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.body11 p{
+    font-family:"Segoe UI", Arial, sans-serif ;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+#p10{
+  font-family:"Segoe UI", Arial, sans-serif ;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#p10 a{
+  text-decoration: underline;
+}
+
+#p10 a:hover{
+  color: #059862;
+}
+
+.body11 img{
+  height: 550px;
+  width: 950px;
+  margin-top: 30px;
+}
+
+.body12 button{
+  margin-top: 70px;
+}
+
+.body12 img{
+  height: 150px;
+  width: 900px;
+}
+
+.body13{
+  margin-top: 110px;
 }
 
 .body10 p{
   font-family:"Segoe UI", Arial, sans-serif ;
   font-size: 30px;
   font-weight: 400;
-  margin-top: 460px;
-  margin-left: 315px;
 }
 
 #p13{
-  margin-left: 315px;
-  margin-top: 520px;
   font-family:"Segoe UI", Arial, sans-serif ;
   font-size: 16px;
   font-weight: 500;
@@ -649,8 +427,6 @@ p{
 .body10 img{
   height: 370px;
   width: 715px;
-  margin-top: 650px;
-  margin-left: 315px;
 }
 
 .body11 p{
@@ -658,12 +434,9 @@ p{
   font-size: 30px;
   font-weight: 400;
   margin-top: 15px;
-  margin-left: 315px;
 }
 
 #p14{
-  margin-left: 315px;
-  margin-top: 115px;
   font-family:"Segoe UI", Arial, sans-serif ;
   font-size: 16px;
   font-weight: 500;
@@ -671,7 +444,6 @@ p{
 }
 
 #p15{
-  margin-left: 315px;
   margin-top: 70px;
   font-family:"Segoe UI", Arial, sans-serif ;
   font-size: 16px;
@@ -682,13 +454,10 @@ p{
   font-family:"Segoe UI", Arial, sans-serif ;
   font-size: 30px;
   font-weight: 400;
-  margin-top: 180px;
-  margin-left: 315px;
+  margin-top: 50px;
 }
 
 #p16{
-  margin-left: 315px;
-  margin-top: 240px;
   font-family:"Segoe UI", Arial, sans-serif ;
   font-size: 16px;
   font-weight: 500;
@@ -702,8 +471,7 @@ p{
 .body12 img{
   height: 550px;
   width: 950px;
-  margin-left: 300px;
-  margin-top: 320px;
+ 
 }
 
 .body13 button{
@@ -713,19 +481,17 @@ p{
 .body13 img{
   height: 150px;
   width: 900px;
-  margin-top: 110px;
-  margin-left: 310px;
+ 
 }
 
 #f1{
   height: 400px;
   width: 1200px;
-  margin-left: 275px;
 }
 
 #f2{
   height: 400px;
   width: 1210px;
-  margin-left: 275px;
   margin-top: -4px;
+  margin-left: -1px;
 }
