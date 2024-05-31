@@ -1,5 +1,9 @@
 /* main styles */
 
+body, a {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
 .sidebar {
   background-color: #e7e9eb;
   white-space: nowrap;
