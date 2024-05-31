@@ -225,3 +225,16 @@
 {
     background-color: #0d8056;
 }
+
+.blue
+{
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: white;
+    background-color: #2196F3;
+}
+
+.blue:hover
+{   cursor: pointer;
+    background-color: #1276c8;
+}
