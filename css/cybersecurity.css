@@ -140,9 +140,17 @@ h3
 .LQT > a
 {
     background-color: #2196F3;
+    border-radius: 5px;
     padding: 10px;
     color: white;
 }
+
+.LQT > a:hover {
+    cursor: pointer;
+    background-color: #0c8bf4;
+
+}
+
 .LQT > h2
 {
     margin: 0px;
